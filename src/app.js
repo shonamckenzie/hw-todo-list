@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     priority: "low"});
                 this.newTodo = "";
             }
+           
         }
     });
 });

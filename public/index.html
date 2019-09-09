@@ -11,10 +11,17 @@
 <body>
     <div id="app">
         <input type="text" v-model="newTodo"/>
+        <input type="radio">
+        <label for="priority">High</label>
+        <input type="radio">
+        <label for="priority">Low</label>
         <button v-on:click="saveNewTodo">Add New Todo</button>
 
         <ul>
-           <li v-for="todo in todos">{{ todo.name }}</li> 
+           <li v-for="todo in todos">
+               <span>{{ todo.name }}</span>
+               <span>{{todo.priority}}</span>
+           </li> 
         </ul>
        
     </div>
