@@ -5,9 +5,8 @@
 
 Your task is to create a todo list application that allows a user to save an item to a list which then renders on the page.
 
-Use Vue and Webpack to build a solution that looks like this:
+Use Vue and Webpack to build a solution:
 
-![ToDos App](./images/todos.png)
 
 ## MVP
 
