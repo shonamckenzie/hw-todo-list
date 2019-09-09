@@ -10,12 +10,13 @@
 </head>
 <body>
     <div id="app">
+        <input type="text" v-model="newTodo"/>
+        <button v-on:click="saveNewTodo">Add New Todo</button>
+
         <ul>
            <li v-for="todo in todos">{{ todo }}</li> 
         </ul>
-
-        <input type="text" v-model="newTodo"/>
-        <button v-on:click="saveNewTodo">Add New Todo</button>
+       
     </div>
 </body>
 </html>
